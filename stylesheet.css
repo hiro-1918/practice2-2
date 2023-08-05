@@ -1,4 +1,14 @@
 
+.main {
+    display:flex;
+}
+
+
+.main img {
+    width:50%;
+
+}
+
 h1 {
     font-size:20px;
 
@@ -7,5 +17,10 @@ h1 {
 
 p {
     font-size:10px;
+    
+}
 
+.number {
+    display:flex;
+    
 }
