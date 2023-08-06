@@ -21,6 +21,11 @@ p {
 }
 
 .number {
-    display:flex;
+    /* display:flex; */
     
+}
+
+/* 材料・数量を横並びにする */
+.material {
+    display: flex;
 }
