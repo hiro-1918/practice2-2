@@ -9,23 +9,52 @@
 
 }
 
+.recipe {
+    margin:35px;
+
+    
+
+}
+
 h1 {
-    font-size:20px;
+    font-size:30px;
 
 }
 
 
 p {
-    font-size:10px;
+    font-size:15px;
     
 }
 
-.number {
-    /* display:flex; */
-    
-}
+.number 
+   /* justify-content: right; /
+
 
 /* 材料・数量を横並びにする */
 .material {
     display: flex;
+    justify-content: space-between;
+}
+
+
+h2 {
+    font-size:20px;
+}
+
+h3 {
+    font-size:20px;
+}
+
+.botum {
+    width:30%;
+    border:solid;
+    padding:20px;
+    text-align: center;
+    margin:100px auto;
+}
+
+footer {
+    text-align: center;
+
 }
