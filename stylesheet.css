@@ -35,15 +35,25 @@ p {
 .material {
     display: flex;
     justify-content: space-between;
+    border-bottom: dotted black 1px;
+
 }
 
 
 h2 {
     font-size:20px;
+    border-bottom: solid black 1px;
 }
 
 h3 {
     font-size:20px;
+    border-bottom: solid black 1px;
+
+}
+
+h3 p {
+    border-bottom: dotted black 1px;
+
 }
 
 .botum {
