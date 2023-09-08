@@ -7,6 +7,7 @@
 
 .main img {
     width:50%;
+    object-fit: cover;
 
 }
 
@@ -68,11 +69,11 @@ footer {
 
 
 
-@media (max-width:600px) {
+@media screen and (max-width:680px) {
 
     
     .main img {
-        height: 600px;
+        height: 300px;
         width: 100%;
         object-fit: cover;
         margin:0 auto;
@@ -86,4 +87,28 @@ footer {
         margin:30px 50px;
 
     }
+
+.recipe h1 {
+font-size:21px;
+}
+
+.recipe h2,h3 {
+    font-size:18px;
+}
+
+.recipe p {
+    font-size:12px;
+}
+
+.material p {
+    line-height:29px;
+}
+
+.botum {
+    font-size:11px;
+    padding:10px;
+    margin:55px auto;
+}
+
+
 }
